@@ -9,3 +9,5 @@ const getCategories = async (): Promise<Category[]> => {
 };
 
 export default getCategories;
+
+
