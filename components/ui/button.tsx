@@ -13,8 +13,9 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({
 }, ref ) => {
     return (
         <button 
-            ref={ref} 
-            className={cn(
+        ref={ref} 
+        disabled={disabled}
+        className={cn(
                 `w-auto
                 rounded-full
                 bg-black
